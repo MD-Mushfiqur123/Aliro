@@ -1,0 +1,9 @@
+# web stuff
+/webapp/dist/bundle.js
+/webapp/dist/*.js
+/webapp/dist/*.json
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+# Environment configuration variables
+/.env

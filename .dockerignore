@@ -1,0 +1,22 @@
+# Allow files and directories
+!**/package.json
+!**/package-lock.json
+!/docker/dbmongo/files/**
+!/docker/lab/files/**
+!/docker/machine/files/**
+
+# Ignore unnecessary files inside allowed directories
+# This should go after the allowed directories
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
+**/node_modules
+**/__pycache__
+**/tmp
+**/.git
+data/datasets/user
+data/datasets/pmlb*
+data/knowledgebases/user
+mock_experiment/
+release/
